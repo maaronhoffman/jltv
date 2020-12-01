@@ -8,14 +8,25 @@ html, body {
   transition: all 0.3s ease;
 }
 
+.title {
+  
+  background-color: rgb(252, 252, 252, .6);
+  padding: 15px;
+  margin: 0 auto;
+  
+  
+}
+
+
+.arrow {
+  margin-top: 5px;
+}
 
 .paypal {
   margin-top: 8px;
 }
 /* Columns */
-.navbar {
-  opacity: .2;
-}
+
 
 
 /* Left Column */
@@ -40,6 +51,7 @@ html, body {
   background-color: rgb(252, 252, 252, .6);
   padding: 20px;
   border-radius: 10px;
+  
 }
 .product-description span {
   font-size: 12px;
@@ -69,11 +81,10 @@ html, body {
 }
 
 .product-price span {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 35px;
+  font-weight: 700;
   color: rgb(252, 252, 252);;
   margin-right: 20px;
-  
 
 }
 
@@ -82,7 +93,31 @@ html, body {
 /* Responsive */
 
 
+@media only screen and (min-width: 150px) {
+  .titletop {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+ 
+  .product-description {
+    
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .titletop {
+    margin: 0px;
+  }
+  .product-description {
+    height: 517px;
+  }
+}
 
+@media only screen and (min-width: 1200px) {
+  .product-description {
+    height: 624px;
+  }
+}
 
 
 
