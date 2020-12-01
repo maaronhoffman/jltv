@@ -9,7 +9,9 @@ html, body {
 }
 
 
-
+.paypal {
+  margin-top: 8px;
+}
 /* Columns */
 .navbar {
   opacity: .2;
